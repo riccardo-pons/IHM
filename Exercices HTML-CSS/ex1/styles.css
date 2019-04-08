@@ -8,3 +8,26 @@
 * TODO (4) Donnez une background-color blanche (white) aux elements qui ont la classe "conteneur"
 
 */
+
+body {
+    background-color: #F9F9F9;
+}
+
+#header {
+    background-color: #425566;
+    color: white;
+}
+
+h2 {
+    background-color: #E57373;
+    color: white;
+}
+
+.conteneur {
+    background-color: white;
+}
+
+
+p {
+    color: rgba(0, 0, 0, 0.8);
+}
