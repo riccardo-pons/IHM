@@ -35,17 +35,24 @@ body {
 	font-size: 20px;
 }
 
-h2 {	
+h2 {
 	margin-top: 0px;
 	margin-bottom: 0px;
 	font-size: 20px;
 	font-weight: normal;
 	padding: 16px;
-	background-color: #E57373;
 	color: white;
 }
 
-.conteneur {
+.conteneur-rouge h2 {
+	background-color: #E57373;
+}
+.conteneur-bleu h2 {
+	background-color: #64B5F6;
+}
+
+
+.conteneur-rouge, .conteneur-bleu {
 	background-color: white;
 	width: 50%;
 	margin: 17px auto 0px auto;
@@ -62,7 +69,28 @@ p {
 	margin-top: 17px;
 	color: rgba(0, 0, 0, 0.8);
 }
+p:first-child {
+	margin-top: 0px;
+}
 
-.important {
+.conteneur-rouge .important {
+	color: #E57373;
+}
+.conteneur-bleu .important {
+	color: #64B5F6;
+}
+
+
+button {
+	display: block;
+	margin: 0px auto;
+	padding: 6px 8px 6px 8px;
+	background-color: #64B5F6;
+	color: white;
+	border: 1px solid rgba(0, 0, 0, 0.14);
+	font-family: Roboto, sans-serif;
+}
+
+a:hover {
 	color: #E57373;
 }
